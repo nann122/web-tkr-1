@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Kelas.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <!-- Logo SMK NEGERI 1 DENPASAR -->
+            <div class="logo">
+                <img height="50" src="https://www.smkn1denpasar.sch.id/images/Logo%20SMKN%201%20Denpasar%202023.png" width="50">
+                
+                <div class="smk">
+                    
+                    SMK NEGERI 1 DENPASAR (TKR)
+                    
+                </div>
+            </div>
+            <nav class="navbutton">
+                <a href="/HomePage/Home.html">Home</a>
+                <a href="/Guru/Guru.html">Guru</a>
+                <a href="/Kelas/Kelas.html">Kelas</a>
+                <a href="#" onclick="logout()">Log Out</a>
+                        </nav>
+        </div>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="hero" id="heroSection">
+    </section>
+
+    <section id="kelas">
+        <div class="kelas-container">
+            <h2>X TKR</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/Foto/logotkr.jpg" alt="X TKR 1">
+                    <h2>X TKR 1</h2>
+                    <p>Data Siswa X TKR 1</p>
+                    <button class="button" onclick="openPopup('popup1')">Selengkapnya</button>
+                </div>
+                <div class="card">
+                    <img src="/Foto/logotkr.jpg" alt="X TKR 2">
+                    <h2>X TKR 2</h2>
+                    <p>Data Siswa X TKR 2</p>
+                    <button class="button" onclick="openPopup('popup2')">Selengkapnya</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pop-up -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup1')">&times;</span>
+            <!-- Isi pop-up untuk X TKR 1 -->
+            <p>    <div class="container">
+                <h1>Data Siswa Teknik Kendaraan Ringan </h1>
+                <h1>(X TKR 1)</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>NIS</th>
+                            <th>Nama</th>
+                            <th>Kelas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>32156</td><td>A.A GEDE ANANDA KUSUMA</td><td>X TKR 1</td></tr>
+                        <tr><td>2</td><td>32157</td><td>ADE BAGUS MAULANA MUCHORROBIN</td><td>X TKR 1</td></tr>
+                        <tr><td>3</td><td>32158</td><td>ALVANO RIZKY DWI PRAMIANTO</td><td>X TKR 1</td></tr>
+                        <tr><td>4</td><td>32159</td><td>ANAK AGUNG GEDE DIVTA MAHA DIGJAYA</td><td>X TKR 1</td></tr>
+                        <tr><td>5</td><td>32160</td><td>ANDIKA SETIAWAN</td><td>X TKR 1</td></tr>
+                        <tr><td>6</td><td>32161</td><td>ANGLIGAN DEVIANO INDIARTA</td><td>X TKR 1</td></tr>
+                        <tr><td>7</td><td>32162</td><td>DEWA NYOMAN RAI ASTAWA</td><td>X TKR 1</td></tr>
+                        <tr><td>8</td><td>32163</td><td>DEWA PUTU DIO PRYA DHARMA</td><td>X TKR 1</td></tr>
+                        <tr><td>9</td><td>32164</td><td>DIKA ADI PRATAMA</td><td>X TKR 1</td></tr>
+                        <tr><td>10</td><td>32165</td><td>DIMAS ACHMAD ROMADHONI</td><td>X TKR 1</td></tr>
+                        <tr><td>11</td><td>32166</td><td>DWI FEBRIAN</td><td>X TKR 1</td></tr>
+                        <tr><td>12</td><td>32167</td><td>EKA SATYA NUGRAHA</td><td>X TKR 1</td></tr>
+                        <tr><td>13</td><td>32168</td><td>EVAN EMERALDY RAHARJA</td><td>X TKR 1</td></tr>
+                        <tr><td>14</td><td>32169</td><td>FIKRI HANIF AL - HIDAYAT</td><td>X TKR 1</td></tr>
+                        <tr><td>15</td><td>32170</td><td>I GUSTI NGURAH WIRA ATMAJA</td><td>X TKR 1</td></tr>
+                        <tr><td>16</td><td>32171</td><td>I KADEK AGUS PUTRA INDRA BRATA</td><td>X TKR 1</td></tr>
+                        <tr><td>17</td><td>32172</td><td>I KADEK DARMA WIRAWAN</td><td>X TKR 1</td></tr>
+                        <tr><td>18</td><td>32173</td><td>I KADEK WAHYU ADITYA PRANATA</td><td>X TKR 1</td></tr>
+                        <tr><td>19</td><td>32174</td><td>I KOMANG ARIP ARTA YASA</td><td>X TKR 1</td></tr>
+                        <tr><td>20</td><td>32175</td><td>I MADE ADI WICAKSANA</td><td>X TKR 1</td></tr>
+                        <tr><td>21</td><td>32176</td><td>I MADE BAGUS CANDRA WINATA</td><td>X TKR 1</td></tr>
+                        <tr><td>22</td><td>32177</td><td>I PUTU ADI SUWARTAMA</td><td>X TKR 1</td></tr>
+                        <tr><td>23</td><td>32178</td><td>I PUTU ANANTHA PRAMANA UTAMA</td><td>X TKR 1</td></tr>
+                        <tr><td>24</td><td>32179</td><td>I PUTU EKA DARMA YASA</td><td>X TKR 1</td></tr>
+                        <tr><td>25</td><td>32180</td><td>I PUTU NOVA KHUSUMA YASA</td><td>X TKR 1</td></tr>
+                        <tr><td>26</td><td>32181</td><td>I PUTU PRAMA ANDIKA</td><td>X TKR 1</td></tr>
+                        <tr><td>27</td><td>32182</td><td>JOHAN ALEXON YUSUF</td><td>X TKR 1</td></tr>
+                        <tr><td>28</td><td>32183</td><td>KADEK TRISNA ADI KUSUMA</td><td>X TKR 1</td></tr>
+                        <tr><td>29</td><td>32184</td><td>MADE ARYA NANDA PRAMANA PUTRA</td><td>X TKR 1</td></tr>
+                        <tr><td>30</td><td>32185</td><td>MOCH. ACHLIS AMINULLAH</td><td>X TKR 1</td></tr>
+                        <tr><td>31</td><td>32186</td><td>MOHAMMAD ANDI FADILAH</td><td>X TKR 1</td></tr>
+                        <tr><td>32</td><td>32187</td><td>MUHAMAD NUR ISHA PUTRA</td><td>X TKR 1</td></tr>
+                        <tr><td>33</td><td>32188</td><td>MUHAMMAD RADITYA MAULANA</td><td>X TKR 1</td></tr>
+                        <tr><td>34</td><td>32189</td><td>MULHAM MULYA MUSHTHAG</td><td>X TKR 1</td></tr>
+                        <tr><td>35</td><td>32190</td><td>NGAKAN PUTU SATRIA WIGUNA</td><td>X TKR 1</td></tr>
+                        <tr><td>36</td><td>32191</td><td>PUTU OCTA DANADYAKSA</td><td>X TKR 1</td></tr>
+                        <tr><td>37</td><td>32192</td><td>PUTU YOGA MAHAYASA</td><td>X TKR 1</td></tr>
+                        <tr><td>38</td><td>32193</td><td>REIHAN FACHRY REZA</td><td>X TKR 1</td></tr>
+                        <tr><td>39</td><td>32194</td><td>YAKUB VALENTINO TASOIN</td><td>X TKR 1</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </p>
+        </div>
+    </div>
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup2')">&times;</span>
+            <!-- Isi pop-up untuk X TKR 2 -->
+            <div class="container">
+                <h1>Data Siswa Teknik Kendaraan Ringan </h1>
+                <h1>(X TKR 2)</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>NIS</th>
+                            <th>Nama</th>
+                            <th>Kelas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>32195</td><td>ADAM RIZKY SUSANTO</td><td>X TKR 2</td></tr>
+                        <tr><td>2</td><td>32196</td><td>AGUNG NUGROHO</td><td>X TKR 2</td></tr>
+                        <tr><td>3</td><td>32197</td><td>ALVINO CAHYA RAHMATULLAH</td><td>X TKR 2</td></tr>
+                        <tr><td>4</td><td>32198</td><td>ANAK AGUNG GEDE DWIJA NARENDRA DIPA</td><td>X TKR 2</td></tr>
+                        <tr><td>5</td><td>32199</td><td>FRISKO GUSTRILIAN ASHIYAMUSYAHDAN</td><td>X TKR 2</td></tr>
+                        <tr><td>6</td><td>32200</td><td>GEDE RIVAN RATOLANA</td><td>X TKR 2</td></tr>
+                        <tr><td>7</td><td>32201</td><td>I GEDE ADI SASTRA WIGUNA</td><td>X TKR 2</td></tr>
+                        <tr><td>8</td><td>32202</td><td>I GEDE CAHYA SATYA WICAKSANA</td><td>X TKR 2</td></tr>
+                        <tr><td>9</td><td>32203</td><td>I GEDE RAKAMAHA UNTUNG AULA</td><td>X TKR 2</td></tr>
+                        <tr><td>10</td><td>32204</td><td>I KADEK BAGUS PUTRA KENAKA JANUARTA</td><td>X TKR 2</td></tr>
+                        <tr><td>11</td><td>32205</td><td>I KADEK DARSILA</td><td>X TKR 2</td></tr>
+                        <tr><td>12</td><td>32206</td><td>I KOMANG TOHAN MAHENDRA</td><td>X TKR 2</td></tr>
+                        <tr><td>13</td><td>32207</td><td>I KOMANG YOGI KERTHA KARTIKA</td><td>X TKR 2</td></tr>
+                        <tr><td>14</td><td>32208</td><td>I MADE ADI SANJAYA</td><td>X TKR 2</td></tr>
+                        <tr><td>15</td><td>32209</td><td>I MADE AGUS SUWARDANA</td><td>X TKR 2</td></tr>
+                        <tr><td>16</td><td>32210</td><td>I MADE GIODI PUTRA PRAJANATA</td><td>X TKR 2</td></tr>
+                        <tr><td>17</td><td>32211</td><td>I MADE NURJAYA PARIATNA WIGUNA</td><td>X TKR 2</td></tr>
+                        <tr><td>18</td><td>32212</td><td>I MADE SATRIA TEJA PRANAYA</td><td>X TKR 2</td></tr>
+                        <tr><td>19</td><td>32213</td><td>I MADE SATRIA WIDNYANA ASTAWA</td><td>X TKR 2</td></tr>
+                        <tr><td>20</td><td>32214</td><td>I MADE SUTA ARTAMA</td><td>X TKR 2</td></tr>
+                        <tr><td>21</td><td>32215</td><td>I MADE SUTA KERTA NAYA</td><td>X TKR 2</td></tr>
+                        <tr><td>22</td><td>32216</td><td>I NYOMAN DARMA PUTRA YOGA</td><td>X TKR 2</td></tr>
+                        <tr><td>23</td><td>32217</td><td>I PUTU DANANJAYA ARYA WIGUNA</td><td>X TKR 2</td></tr>
+                        <tr><td>24</td><td>32218</td><td>I PUTU GEDE WIWID OKTA SUWANTARA</td><td>X TKR 2</td></tr>
+                        <tr><td>25</td><td>32219</td><td>I WAYAN AGUS GANENDRA PUTRA</td><td>X TKR 2</td></tr>
+                        <tr><td>26</td><td>32220</td><td>INTAN IQBAL BIMA SAPUTRA</td><td>X TKR 2</td></tr>
+                        <tr><td>27</td><td>32221</td><td>KADEK AAN DWISATYA</td><td>X TKR 2</td></tr>
+                        <tr><td>28</td><td>32222</td><td>KADEK ADI ADNYANA</td><td>X TKR 2</td></tr>
+                        <tr><td>29</td><td>32223</td><td>KEVIN ADITYA PRATAMA</td><td>X TKR 2</td></tr>
+                        <tr><td>30</td><td>32224</td><td>KOMANG WIRYA PRIANTARA</td><td>X TKR 2</td></tr>
+                        <tr><td>31</td><td>32225</td><td>MUHAMAD ALFARIZI</td><td>X TKR 2</td></tr>
+                        <tr><td>32</td><td>32226</td><td>MUHAMMAD ADIB FAIZI</td><td>X TKR 2</td></tr>
+                        <tr><td>33</td><td>32227</td><td>MUHAMMAD EVAN HARTA POETRA</td><td>X TKR 2</td></tr>
+                        <tr><td>34</td><td>32228</td><td>MUHAMMAD NUR EFENDY</td><td>X TKR 2</td></tr>
+                        <tr><td>35</td><td>32229</td><td>MUHAMMAD RIZKY ADITYA</td><td>X TKR 2</td></tr>
+                        <tr><td>36</td><td>32230</td><td>PANJI SULTAN MAHENDRA</td><td>X TKR 2</td></tr>
+                        <tr><td>37</td><td>32231</td><td>RIDHO ROMA SOLIHIN</td><td>X TKR 2</td></tr>
+                        <tr><td>38</td><td>32232</td><td>RIZKY NURDIANSYAH</td><td>X TKR 2</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>SMK NEGERI 1 DENPASAR</h3>
+                <p>SMK Negeri 1 Denpasar mengembangkan keahlian di bidang Teknik Kendaraan Ringan (TKR), bertujuan untuk menciptakan lulusan yang siap kerja dan berinovasi di dunia otomotif.</p>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Tautan Cepat</h3>
+                <ul>
+                    <li><a href="/HomePage/Home.html">Home</a></li>
+                    <li><a href="/Guru/Guru.html">Guru</a></li>
+                    <li><a href="/Kelas/Kelas.html">Kelas</a></li>
+                    <li><a href="/LoginRegister/Login.html">Log Out</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Kontak</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Cokroaminoto No.84, Pemecutan Kaja, Kec. Denpasar Utara, Kota Denpasar</p>
+                <p><i class="fas fa-phone"></i> +62 81 339 276 998</p>
+                <p><i class="fas fa-envelope"></i> contact@smkn1denpasar.sch.id</p>
+        </div>
+    
+            <div class="footer-section social">
+                <h3>Ikuti Kami</h3>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/facebook-removebg-preview.png" width="20" alt="Facebook"></a>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/ig-removebg-preview.png" width="20" alt="Instagram"></a>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/twitter-removebg-preview.png" width="20" alt="Twitter"></a>                </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 SMK NEGERI 1 DENPASAR. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        function openPopup(popupId) {
+            document.getElementById(popupId).style.display = "block";
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = "none";
+        }
+    </script>
+
+    <script src="Kelas.js"></script>
+</body>
+</html>

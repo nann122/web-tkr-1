@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Kelas.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <!-- Logo SMK NEGERI 1 DENPASAR -->
+            <div class="logo">
+                <img height="50" src="https://www.smkn1denpasar.sch.id/images/Logo%20SMKN%201%20Denpasar%202023.png" width="50">
+                
+                <div class="smk">
+                    
+                    SMK NEGERI 1 DENPASAR (TKR)
+                    
+                </div>
+            </div>
+            <nav class="navbutton">
+                <a href="/HomePage/Home.html">Home</a>
+                <a href="/Guru/Guru.html">Guru</a>
+                <a href="/Kelas/Kelas.html">Kelas</a>
+                <a href="#" onclick="logout()">Log Out</a>
+                        </nav>
+        </div>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="hero" id="heroSection">
+    </section>
+
+    <section id="kelas">
+        <div class="kelas-container">
+            <h2>XI TKR</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/Foto/logotkr.jpg" alt="XI TKR 1">
+                    <h2>XI TKR 1</h2>
+                    <p>Data Siswa XI TKR 1</p>
+                    <button class="button" onclick="openPopup('popup1')">Selengkapnya</button>
+                </div>
+                <div class="card">
+                    <img src="/Foto/logotkr.jpg" alt="XI TKR 2">
+                    <h2>XI TKR 2</h2>
+                    <p>Data Siswa XI TKR 2</p>
+                    <button class="button" onclick="openPopup('popup2')">Selengkapnya</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pop-up -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup1')">&times;</span>
+            <!-- Isi pop-up untuk XI TKR 1 -->
+            <p>    
+                <div class="container">
+                <h1>Data Siswa Teknik Kendaraan Ringan </h1>
+                <h1>(XI TKR 1)</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>NIS</th>
+                            <th>Nama</th>
+                            <th>Kelas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>31289</td><td>AHMAD GHANI RIANSYAH</td><td>XI TKR 1</td></tr>
+                        <tr><td>2</td><td>31290</td><td>ALDY PRAMANA PUTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>3</td><td>31291</td><td>ALVIN AHMAD MAULANA</td><td>XI TKR 1</td></tr>
+                        <tr><td>4</td><td>31292</td><td>ARDHIAN PERMANA PUTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>5</td><td>31293</td><td>BAGAS WAHYU JATMIKO</td><td>XI TKR 1</td></tr>
+                        <tr><td>6</td><td>31294</td><td>DEKY SATRIO</td><td>XI TKR 1</td></tr>
+                        <tr><td>7</td><td>31295</td><td>FATAN RIZKY DAVINSYAH</td><td>XI TKR 1</td></tr>
+                        <tr><td>8</td><td>31296</td><td>I GEDE ANGGA PRAMANA</td><td>XI TKR 1</td></tr>
+                        <tr><td>9</td><td>31297</td><td>I GEDE DEVA DANENDRA PRABAWA PUTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>10</td><td>31299</td><td>I GUSTI AGUNG CAHYA PARINTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>11</td><td>31300</td><td>I GUSTI MADE AGUS HENDRA DINATA</td><td>XI TKR 1</td></tr>
+                        <tr><td>12</td><td>31301</td><td>I GUSTI PUTU CAHYANA ADI PRATAMA</td><td>XI TKR 1</td></tr>
+                        <tr><td>13</td><td>31303</td><td>I KETUT WIBAWA PUTRA SADA</td><td>XI TKR 1</td></tr>
+                        <tr><td>14</td><td>31304</td><td>I KOMANG PANDE TRI YUDA WARDANA</td><td>XI TKR 1</td></tr>
+                        <tr><td>15</td><td>31305</td><td>I KOMANG PRADNYANTARA</td><td>XI TKR 1</td></tr>
+                        <tr><td>16</td><td>31306</td><td>I KOMANG SWANDITA SOMADI PUTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>17</td><td>31307</td><td>I MADE BAGUS KANYAWISESA</td><td>XI TKR 1</td></tr>
+                        <tr><td>18</td><td>31308</td><td>I MADE KOENSIANG KARMANANTA</td><td>XI TKR 1</td></tr>
+                        <tr><td>19</td><td>31309</td><td>I MADE LANCA PAGEH WIRANATA</td><td>XI TKR 1</td></tr>
+                        <tr><td>20</td><td>31310</td><td>I MADE TUSAN DIMAS ERAWAN</td><td>XI TKR 1</td></tr>
+                        <tr><td>21</td><td>31311</td><td>I PUTU AGUS SUANTIKA</td><td>XI TKR 1</td></tr>
+                        <tr><td>22</td><td>31312</td><td>I PUTU GEDE SETYA WIGUNA</td><td>XI TKR 1</td></tr>
+                        <tr><td>23</td><td>31313</td><td>I PUTU RADITE ADITYA</td><td>XI TKR 1</td></tr>
+                        <tr><td>24</td><td>31314</td><td>I WAYAN AGUS RAYMAN PUTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>25</td><td>31315</td><td>I WAYAN SATYA JIWANGGA NATHA</td><td>XI TKR 1</td></tr>
+                        <tr><td>26</td><td>31316</td><td>IDA BAGUS KOMANG SURYA PUTRA WIGUNA</td><td>XI TKR 1</td></tr>
+                        <tr><td>27</td><td>31317</td><td>JUNIAWAN BAGUS DWISAPUTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>28</td><td>31318</td><td>KADEK ABI RAHADI</td><td>XI TKR 1</td></tr>
+                        <tr><td>29</td><td>31319</td><td>KADEK AGUS ARDI SETIAWAN</td><td>XI TKR 1</td></tr>
+                        <tr><td>30</td><td>31320</td><td>KETUT SASKARA RAMANTHA</td><td>XI TKR 1</td></tr>
+                        <tr><td>31</td><td>31321</td><td>MADE YOGA DHARMA KUSUMA</td><td>XI TKR 1</td></tr>
+                        <tr><td>32</td><td>31322</td><td>MOHAMAD KRISNA PUTRA</td><td>XI TKR 1</td></tr>
+                        <tr><td>33</td><td>31323</td><td>MUHAMMAD ZAIDAN ARDZI</td><td>XI TKR 1</td></tr>
+                        <tr><td>34</td><td>31324</td><td>NYOMAN YOGI BIMANTARA PRAPTA</td><td>XI TKR 1</td></tr>
+                        <tr><td>35</td><td>31325</td><td>RADITYA ALVITO PUTRA SETIAWAN</td><td>XI TKR 1</td></tr>
+                        <tr><td>36</td><td>31326</td><td>RAHMAT RISKI HARTOYO</td><td>XI TKR 1</td></tr>
+                        <tr><td>37</td><td>31328</td><td>ZAKI SALMAN</td><td>XI TKR 1</td></tr>
+                        <tr><td>38</td><td>30461</td><td>PUTU AGUS MAS SAPUTRA</td><td>XI TKR 1</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </p>
+        </div>
+    </div>
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup2')">&times;</span>
+            <!-- Isi pop-up untuk XI TKR 2 -->
+            <p>
+                <div class="container">
+                    <h1>Data Siswa Teknik Kendaraan Ringan </h1>
+                    <h1>(XI TKR 2)</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>NISN</th>
+                                <th>Nama</th>
+                                <th>Kelas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>31329</td><td>ADHIMAS ILHAM RAMADHANI</td><td>XI TKR 2</td></tr>
+                            <tr><td>2</td><td>31330</td><td>AHMAD FAEYZA ESHAN</td><td>XI TKR 2</td></tr>
+                            <tr><td>3</td><td>31331</td><td>AHMAD GHIFARI RADITYA</td><td>XI TKR 2</td></tr>
+                            <tr><td>4</td><td>31332</td><td>GEDE KRESNA ERSAN PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>5</td><td>31333</td><td>GEDE RIAN ADITIA SETIAWAN</td><td>XI TKR 2</td></tr>
+                            <tr><td>6</td><td>31334</td><td>I GEDE DIMAS WIGUNA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>7</td><td>31335</td><td>I GEDE LEVY ANGGARA DIPUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>8</td><td>31336</td><td>I GUSTI NGURAH AGUNG ARYA SUPUTRA MARDAWA</td><td>XI TKR 2</td></tr>
+                            <tr><td>9</td><td>31337</td><td>I KADEK ANGGA PRAMANA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>10</td><td>31338</td><td>I KADEK ARI SURYA PRATAMA</td><td>XI TKR 2</td></tr>
+                            <tr><td>11</td><td>31339</td><td>I KADEK JAYA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>12</td><td>31340</td><td>I KADEK RENDI MAHARDIKA</td><td>XI TKR 2</td></tr>
+                            <tr><td>13</td><td>31341</td><td>I KADEK RISKI BUDI ANTARA</td><td>XI TKR 2</td></tr>
+                            <tr><td>14</td><td>31342</td><td>I KOMANG BAGUS WAHYU WISNAWAN</td><td>XI TKR 2</td></tr>
+                            <tr><td>15</td><td>31343</td><td>I KOMANG RAI SANJAYA</td><td>XI TKR 2</td></tr>
+                            <tr><td>16</td><td>31344</td><td>I KOMANG URIP SANTIKA</td><td>XI TKR 2</td></tr>
+                            <tr><td>17</td><td>31345</td><td>I MADE ADE WIGUNA</td><td>XI TKR 2</td></tr>
+                            <tr><td>18</td><td>31346</td><td>I MADE AGUS DARMAWAN PURNAYASA</td><td>XI TKR 2</td></tr>
+                            <tr><td>19</td><td>31347</td><td>I MADE ALDI KOCALA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>20</td><td>31348</td><td>I MADE ASWIN ADI GUNA</td><td>XI TKR 2</td></tr>
+                            <tr><td>21</td><td>31349</td><td>I MADE MERTA ADNYANA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>22</td><td>31350</td><td>I MADE PRAMA GITA WIGUNA</td><td>XI TKR 2</td></tr>
+                            <tr><td>23</td><td>31351</td><td>I MADE RAMA</td><td>XI TKR 2</td></tr>
+                            <tr><td>24</td><td>31352</td><td>I MADE VIDAR ADI PRATAMA</td><td>XI TKR 2</td></tr>
+                            <tr><td>25</td><td>31354</td><td>I PUTU GEDE RAMA EKA WIGUNA</td><td>XI TKR 2</td></tr>
+                            <tr><td>26</td><td>31355</td><td>I PUTU GEDE SEDANA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>27</td><td>31356</td><td>I PUTU YOGA ARDIKA</td><td>XI TKR 2</td></tr>
+                            <tr><td>28</td><td>31357</td><td>I WAYAN AGUS WIDNYANA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>29</td><td>31358</td><td>I WAYAN DE SUMITRA YASA</td><td>XI TKR 2</td></tr>
+                            <tr><td>30</td><td>31359</td><td>I WAYAN MAHARDIKA JAYA WIGUNA</td><td>XI TKR 2</td></tr>
+                            <tr><td>31</td><td>31360</td><td>IBNU CHIARA FAWWAZ</td><td>XI TKR 2</td></tr>
+                            <tr><td>32</td><td>31361</td><td>IDA BAGUS NYOMAN DHARMA ADIYATNA PUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>33</td><td>31362</td><td>MADE DENDI DWI MAHENDRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>34</td><td>31363</td><td>MOH. BISMA DEWA TANSYAH</td><td>XI TKR 2</td></tr>
+                            <tr><td>35</td><td>31364</td><td>MOHAMAD BAYU SAPUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>36</td><td>31365</td><td>PACHRY JATAWI</td><td>XI TKR 2</td></tr>
+                            <tr><td>37</td><td>31366</td><td>PUTU AGUS RADITYA</td><td>XI TKR 2</td></tr>
+                            <tr><td>38</td><td>31367</td><td>PUTU PUTRA RAMJANA</td><td>XI TKR 2</td></tr>
+                            <tr><td>39</td><td>31368</td><td>PUTU RIZKY WAHYU SAPUTRA</td><td>XI TKR 2</td></tr>
+                            <tr><td>40</td><td>31369</td><td>TU DE ARYA SANJAYA</td><td>XI TKR 2</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>SMK NEGERI 1 DENPASAR</h3>
+                <p>SMK Negeri 1 Denpasar mengembangkan keahlian di bidang Teknik Kendaraan Ringan (TKR), bertujuan untuk menciptakan lulusan yang siap kerja dan berinovasi di dunia otomotif.</p>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Tautan Cepat</h3>
+                <ul>
+                    <li><a href="/HomePage/Home.html">Home</a></li>
+                    <li><a href="/Guru/Guru.html">Guru</a></li>
+                    <li><a href="/Kelas/Kelas.html">Kelas</a></li>
+                    <li><a href="/LoginRegister/Login.html">Log Out</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Kontak</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Cokroaminoto No.84, Pemecutan Kaja, Kec. Denpasar Utara, Kota Denpasar</p>
+                <p><i class="fas fa-phone"></i> +62 81 339 276 998</p>
+                <p><i class="fas fa-envelope"></i> contact@smkn1denpasar.sch.id</p>
+        </div>
+    
+            <div class="footer-section social">
+                <h3>Ikuti Kami</h3>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/facebook-removebg-preview.png" width="20" alt="Facebook"></a>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/ig-removebg-preview.png" width="20" alt="Instagram"></a>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/twitter-removebg-preview.png" width="20" alt="Twitter"></a>                </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 SMK NEGERI 1 DENPASAR. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        function openPopup(popupId) {
+            document.getElementById(popupId).style.display = "block";
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = "none";
+        }
+    </script>
+
+    <script src="Kelas.js"></script>
+</body>
+</html>

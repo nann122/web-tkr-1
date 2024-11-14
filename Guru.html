@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Guru.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <!-- Logo SMK NEGERI 1 DENPASAR -->
+            <div class="logo">
+                <img height="50" src="https://www.smkn1denpasar.sch.id/images/Logo%20SMKN%201%20Denpasar%202023.png" width="50">
+                
+                <div class="smk">
+                    
+                    SMK NEGERI 1 DENPASAR (TKR)
+                    
+                </div>
+            </div>
+            <nav class="navbutton">
+                <a href="Home.html">Home</a>
+                <a href="Guru.html">Guru</a>
+                <a href="Kelas.html">Kelas</a>
+                <a href="#" onclick="logout()">Log Out</a>            
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="hero" id="heroSection">
+    </section>
+
+<!-- Isi Website -->
+ 
+
+<section id="guru" class="jurusan-section">
+    <div class="kelas-container">
+    <h2>Data Guru TKR</h2>
+    <div class="jurusan-cards">
+        <div class="card">
+            <img src="/foto guru/Pak Bagus Carma.jpg" alt="Guru 3">
+            <h3>I A. A. Ngurah Bagus Carma Guna Manta, S.Pd</h3>
+            <button class="button" onclick="openPopup('popup1')">Selengkapnya</button>
+        </div>
+        <div class="card">
+            <img src="/foto guru/Pak Dewa.jpg" alt="Guru 4">
+            <h3>Dewa Gede Oka Sastrawan, S.Pd. M.T.</h3>
+            <button class="button" onclick="openPopup('popup2')">Selengkapnya</button>
+        </div>
+        <div class="card">
+            <img src="/foto guru/Ida Ayu.jpg" alt="Guru 2">
+            <h3>Ida Ayu Putu Indah Komala Dewi, S.Pd</h3>
+            <button class="button" onclick="openPopup('popup3')">Selengkapnya</button>
+        </div>
+        <div class="card">
+            <img src="/foto guru/Pak Windu.jpg" alt="Guru 6">
+            <h3>A. A. Gede Windhu Gandhi Putra, S.Pd</h3>
+            <button class="button" onclick="openPopup('popup4')">Selengkapnya</button>
+        </div>
+        <div class="card">
+            <img src="/foto guru/I Made Artawan.jpg" alt="Guru 1">
+            <h3 onclick="showGuruInfo('I Made Artawan, ST')">I Made Artawan, ST</h3>
+            <button class="button" onclick="openPopup('popup5')">Selengkapnya</button>
+        </div>
+        <div class="card">
+            <img src="/foto guru/Pak Teges.jpg" alt="Guru 5">
+            <h3>Gede Teges, S.Pd.</h3>
+            <button class="button" onclick="openPopup('popup6')">Selengkapnya</button>
+        </div>
+        <div class="card">
+            <img src="/foto guru/Pak Sudarsana.png" alt="Guru 7">
+            <h3>I Ketut Sudarsana, S.Pd.</h3>
+            <button class="button" onclick="openPopup('popup7')">Selengkapnya</button>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>SMK NEGERI 1 DENPASAR</h3>
+            <p>SMK Negeri 1 Denpasar mengembangkan keahlian di bidang Teknik Kendaraan Ringan (TKR), bertujuan untuk menciptakan lulusan yang siap kerja dan berinovasi di dunia otomotif.</p>
+        </div>
+        
+        <div class="footer-section links">
+            <h3>Tautan Cepat</h3>
+            <ul>
+                <li><a href="/HomePage/Home.html">Home</a></li>
+                <li><a href="/Guru/Guru.html">Guru</a></li>
+                <li><a href="/Kelas/Kelas.html">Kelas</a></li>
+                <li><a href="/LoginRegister/Login.html">Log Out</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section contact">
+            <h3>Kontak</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Jl. Cokroaminoto No.84, Pemecutan Kaja, Kec. Denpasar Utara, Kota Denpasar</p>            
+            <p><i class="fas fa-phone"></i> +62 81 339 276 998</p>
+            <p><i class="fas fa-envelope"></i> contact@smkn1denpasar.sch.id</p>
+</div>
+
+        <div class="footer-section social">
+            <h3>Ikuti Kami</h3>
+            <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/facebook-removebg-preview.png" width="20" alt="Facebook"></a>
+            <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/ig-removebg-preview.png" width="20" alt="Instagram"></a>
+            <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/twitter-removebg-preview.png" width="20" alt="Twitter"></a>        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 SMK NEGERI 1 DENPASAR. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+    <!-- Pop-up -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup1')">&times;</span>
+            <!-- Isi pop-up untuk I A. A. Ngurah Bagus Carma Guna Manta, S.Pd -->
+            <img src="/foto guru/Pak Bagus Carma.jpg" alt="Guru 3">
+            <h3>I A. A. Ngurah Bagus Carma Guna Manta, S.Pd</h3>
+            <p>Guru Mata Pelajaran Pilihan dan Kelistrikan.</p>
+            <p>Telepon: 0895350218989</p>
+
+        </div>
+    </div>
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup2')">&times;</span>
+            <!-- Isi pop-up untuk Dewa Gede Oka Sastrawan, S.Pd. M.T. -->
+            <img src="/foto guru/Pak Dewa.jpg" alt="Guru 4">
+            <h3>Dewa Gede Oka Sastrawan, S.Pd. M.T.</h3>
+            <p>Guru Perawatan Berkala</p>
+            <p>Telepon: 081216434521</p>
+        </div>
+    </div>
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup3')">&times;</span>
+            <!-- Isi pop-up untuk Ida Ayu Putu Indah Komala Dewi, S.Pd -->
+            <img src="/foto guru/Ida Ayu.jpg" alt="Guru 2">
+            <h3>Ida Ayu Putu Indah Komala Dewi, S.Pd</h3>
+            <p>Guru Dasar Otomotif</p>
+            <p>Telepon: 087753574494</p>
+        </div>
+    </div>
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup4')">&times;</span>
+            <!-- Isi pop-up untuk A. A. Gede Windhu Gandhi Putra, S.Pd -->
+            <img src="/foto guru/Pak Windu.jpg" alt="Guru 6">
+            <h3>A. A. Gede Windhu Gandhi Putra, S.Pd</h3>
+            <p>Guru Dasar Otomotif</p>
+            <p>Telepon: 081236106202</p>
+        </div>
+    </div>
+    <div id="popup5" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup5')">&times;</span>
+            <!-- Isi pop-up untuk I Made Artawan, ST -->
+            <img src="/foto guru/I Made Artawan.jpg" alt="Guru 1">
+            <h3>I Made Artawan, ST</h3>
+            <p>Guru Konversi Energi dan Manajemen Bengkel</p>
+            <p>Telepon: 081805565951</p>
+        </div>
+    </div>
+    <div id="popup6" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup6')">&times;</span>
+            <!-- Isi pop-up untuk Gede Teges, S.Pd. -->
+            <img src="/foto guru/Pak Teges.jpg" alt="Guru 5">
+            <h3>Gede Teges, S.Pd.</h3>
+            <p>Guru Sistem Engine</p>
+            <p>Telepon: 082147424237</p>
+        </div>
+    </div>
+    <div id="popup7" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup7')">&times;</span>
+            <!-- Isi pop-up untuk I Ketut Sudarsana, S.Pd. -->
+            <img src="/foto guru/Pak Sudarsana.png" alt="Guru 7">
+            <h3>I Ketut Sudarsana, S.Pd.</h3>
+            <p>Guru Pemindahan Tenaga</p>
+            <p>Telepon: 08164708897</p>
+        </div>
+    </div>
+
+    <script>
+        function openPopup(popupId) {
+            document.getElementById(popupId).style.display = "block";
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = "none";
+        }
+    </script>
+
+    <script src="Guru.js"></script>
+</body>
+</html>

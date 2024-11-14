@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Kelas.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <!-- Logo SMK NEGERI 1 DENPASAR -->
+            <div class="logo">
+                <img height="50" src="https://www.smkn1denpasar.sch.id/images/Logo%20SMKN%201%20Denpasar%202023.png" width="50">
+                
+                <div class="smk">
+                    
+                    SMK NEGERI 1 DENPASAR (TKR)
+                    
+                </div>
+            </div>
+            <nav class="navbutton">
+                <a href="/HomePage/Home.html">Home</a>
+                <a href="/Guru/Guru.html">Guru</a>
+                <a href="/Kelas/Kelas.html">Kelas</a>
+                <a href="#" onclick="logout()">Log Out</a>
+                        </nav>
+        </div>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section class="hero" id="heroSection">
+    </section>
+
+    <section id="kelas">
+        <div class="kelas-container">
+            <h2>XII TKRO</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/Foto/logotkr.jpg" alt="XII TKRO 1">
+                    <h2>XII TKRO 1</h2>
+                    <p>Data Siswa XII TKRO 1</p>
+                    <button class="button" onclick="openPopup('popup1')">Selengkapnya</button>
+                </div>
+                <div class="card">
+                    <img src="/Foto/logotkr.jpg" alt="XII TKRO 2">
+                    <h2>XII TKRO 2</h2>
+                    <p>Data Siswa XII TKRO 2</p>
+                    <button class="button" onclick="openPopup('popup2')">Selengkapnya</button>
+                </div>
+                <div class="card">
+                    <img src="/Foto/logotkr.jpg" alt="XII TKRO 3">
+                    <h2>XII TKRO 3</h2>
+                    <p>Data Siswa XII TKRO 3</p>
+                    <button class="button" onclick="openPopup('popup3')">Selengkapnya</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pop-up -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup1')">&times;</span>
+            <!-- Isi pop-up untuk XII TKRO 1 -->
+            <p>
+                <div class="container">
+                    <h1>Data Siswa Teknik Kendaraan Ringan Otomotif </h1>
+                    <h1>(XII TKRO 1)</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>NIS</th>
+                                <th>Nama</th>
+                                <th>Kelas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>30400</td><td>I GEDE DIKA ADINATA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>2</td><td>30401</td><td>I GEDE FAREN WIRADINATA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>3</td><td>30402</td><td>I GUSTI NGURAH FEOBRIAN KAYANA MAHAPUTRA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>4</td><td>30403</td><td>I GUSTI NGURAH KRISNA ARYA KUSUMA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>5</td><td>30404</td><td>I KADEK CANDRA WINATA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>6</td><td>30405</td><td>I KADEK EGA NANDANA PUTRA SETIAWAN</td><td>XII TKRO 1</td></tr>
+                            <tr><td>7</td><td>30406</td><td>I KETUT ALIT PRANATA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>8</td><td>30407</td><td>I KETUT MAHENDRA PUTRA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>9</td><td>30408</td><td>I KETUT PANJI ADI KUSUMA PUTRA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>10</td><td>30410</td><td>I KOMANG PANDE BAGUS PRASETYA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>11</td><td>30411</td><td>I MADE ADI PANDU WINATA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>12</td><td>30412</td><td>I MADE ANDREYANA SATYA WIGUNA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>13</td><td>30413</td><td>I MADE DEDI YOANA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>14</td><td>30415</td><td>I MADE DIVA BASKARA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>15</td><td>30416</td><td>I MADE SUGIANTARA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>16</td><td>30418</td><td>I PUTU ADI MERTAWAN</td><td>XII TKRO 1</td></tr>
+                            <tr><td>17</td><td>30420</td><td>I PUTU PANDE DHIKA PRATAMA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>18</td><td>30421</td><td>I PUTU PRADNYANA PUTRA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>19</td><td>30422</td><td>I PUTU YUDHI ARIAWAN</td><td>XII TKRO 1</td></tr>
+                            <tr><td>20</td><td>30423</td><td>I WAYAN GALANG TURISIA MAHENDRA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>21</td><td>30424</td><td>I WAYAN HARI DARMAJAYA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>22</td><td>30425</td><td>I WAYAN SADUANA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>23</td><td>30426</td><td>IDA BAGUS SUAMBA YOGA NANDA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>24</td><td>30427</td><td>KADEK SATRIA ADI WIBAWA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>25</td><td>30428</td><td>KOMANG WIRA MAHANATHA PUTRA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>26</td><td>30429</td><td>KRISNANDA PREMA SAPUTRA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>27</td><td>30430</td><td>MUHAMMAD ANDHASYAH SURYA</td><td>XII TKRO 1</td></tr>
+                            <tr><td>28</td><td>30431</td><td>PUTU RADEYA SEMARA AMURWABHUMI</td><td>XII TKRO 1</td></tr>
+                            <tr><td>29</td><td>30432</td><td>SI NGURAH MADE SUDIANA SASTRAWAN</td><td>XII TKRO 1</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+            </p>
+        </div>
+    </div>
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup2')">&times;</span>
+            <!-- Isi pop-up untuk XII TKRO 2 -->
+            <p>    <div class="container">
+                <h1>Data Siswa Teknik Kendaraan Ringan Otomotif </h1>
+                <h1>(XII TKRO 2)</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>NIS</th>
+                            <th>Nama</th>
+                            <th>Kelas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>30433</td><td>AQILA RAHMAN</td><td>XII TKRO 2</td></tr>
+                        <tr><td>2</td><td>30434</td><td>DIMAS ADRIANO DWI PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>3</td><td>30435</td><td>DIPA LAURENT ANDRIANO NAINGOLAN</td><td>XII TKRO 2</td></tr>
+                        <tr><td>4</td><td>30436</td><td>FAUZAN RAFID SAPUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>5</td><td>30438</td><td>GEDE REHAN PRATAMA PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>6</td><td>30439</td><td>I KADEK AGUS WIANTARA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>7</td><td>30440</td><td>I KADEK BAGUS GUNA ARTA WIBAWA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>8</td><td>30441</td><td>I KADEK DESTA ADI PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>9</td><td>30442</td><td>I KADEK WIDANTA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>10</td><td>30443</td><td>I KETUT ADI ARTHA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>11</td><td>30444</td><td>I KOMANG ARYA PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>12</td><td>30445</td><td>I MADE ADI HARTA WIBAWA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>13</td><td>30446</td><td>I MADE ARIS SAPUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>14</td><td>30447</td><td>I MADE ASTIKA PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>15</td><td>30448</td><td>I MADE BAGAS PURNAMA PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>16</td><td>30449</td><td>I MADE JAYA PRASETYA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>17</td><td>30450</td><td>I MADE YOGA ISWARA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>18</td><td>30452</td><td>I PUTU DODE SURYADANA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>19</td><td>30453</td><td>I PUTU JAGANATHA DASA ANUDASA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>20</td><td>30454</td><td>I PUTU YUDI WIRANATA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>21</td><td>30455</td><td>I WAYAN WAHYU ARTHA SAPUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>22</td><td>30456</td><td>JUNEDI PETER ALBRET OEMATAN</td><td>XII TKRO 2</td></tr>
+                        <tr><td>23</td><td>30457</td><td>KADEK ARYA RAMANDIKA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>24</td><td>30458</td><td>KADEK WAHYU ANTARE YASE</td><td>XII TKRO 2</td></tr>
+                        <tr><td>25</td><td>30459</td><td>KETUT AGUS PRAMANA PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>26</td><td>30460</td><td>MADE BAGUS WIRANATHA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>27</td><td>30462</td><td>PUTU ARDI PRADITA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>28</td><td>30463</td><td>PUTU GEDE DHIYO BUDI ARSA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>29</td><td>30464</td><td>PUTU GEDE SUARJAYA SENTANA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>30</td><td>30465</td><td>PUTU OKA PRADNYANA PUTRA</td><td>XII TKRO 2</td></tr>
+                        <tr><td>31</td><td>30466</td><td>PUTU RIZKY PRASETYA PERMANA</td><td>XII TKRO 2</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </p>
+        </div>
+    </div>
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup3')">&times;</span>
+            <!-- Isi pop-up untuk XII TKRO 3 -->
+            <p>
+                <div class="container">
+                    <h1>Data Siswa Teknik Kendaraan Ringan Otomotif </h1>
+                    <h1>(XII TKRO 3)</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>NIS</th>
+                                <th>Nama</th>
+                                <th>Kelas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>30468</td><td>BEKTI RILO PAMBUDI</td><td>XII TKRO 3</td></tr>
+                            <tr><td>2</td><td>30469</td><td>DINO ARI PRAMANA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>3</td><td>30470</td><td>DZAKWAN BAGUS SATRIA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>4</td><td>30471</td><td>GAGUS PUTU SUBAKTIASA PUTRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>5</td><td>30472</td><td>I GEDE MAHENDRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>6</td><td>30473</td><td>I KADEK JULISTYAWAN</td><td>XII TKRO 3</td></tr>
+                            <tr><td>7</td><td>30474</td><td>I KADEK JUNI ANDI ADNYANA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>8</td><td>30475</td><td>I KOMANG BIMA ADITYA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>9</td><td>30476</td><td>I KOMANG MANIK ARIYASA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>10</td><td>30477</td><td>I MADE ADI MAS PRAMARTHA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>11</td><td>30478</td><td>I MADE ANDIKA PRATAMA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>12</td><td>30479</td><td>I MADE ARYA DINATA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>13</td><td>30480</td><td>I MADE GEDE PRADNYA SUPUTRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>14</td><td>30481</td><td>I MADE RADITYA ARTHA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>15</td><td>30482</td><td>I NYOMAN GIRI ARTA SEDANA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>16</td><td>30483</td><td>I PUTU GEDE DICKY PRASETYA WIBAWA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>17</td><td>30484</td><td>I PUTU KEVIN WIRADHARMA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>18</td><td>30485</td><td>I PUTU RASSYA ARKADYA PRATAMA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>19</td><td>30486</td><td>I PUTU YOGA SAPUTRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>20</td><td>30487</td><td>I WAYAN ANDIKA SUPUTRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>21</td><td>30488</td><td>I WAYAN SATRIA WIBAWA MALIBELA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>22</td><td>30489</td><td>IBRA ROFI'I</td><td>XII TKRO 3</td></tr>
+                            <tr><td>23</td><td>30490</td><td>ILHAM SURYA SAPUTRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>24</td><td>30491</td><td>KADEK DEVA SURIAWAN</td><td>XII TKRO 3</td></tr>
+                            <tr><td>25</td><td>30492</td><td>KADEK WIDIANA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>26</td><td>30493</td><td>MADE KAZUTARO PUTRA SANJAYA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>27</td><td>30494</td><td>MUHAMMAD BINTANG SABILUHNUHA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>28</td><td>30495</td><td>NGURAH PUTU ADITYA DIARTA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>29</td><td>30496</td><td>RANGGA DWI SAPUTRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>30</td><td>30497</td><td>RIVALDO ANA LONGA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>31</td><td>30498</td><td>SADEWA ADITYA PUTRA</td><td>XII TKRO 3</td></tr>
+                            <tr><td>32</td><td>30499</td><td>SLAMET RIZKY HARIADI</td><td>XII TKRO 3</td></tr>
+                            <tr><td>33</td><td>30500</td><td>STEVANO WESLEY RAHMANATAN</td><td>XII TKRO 3</td></tr>
+                            <tr><td>34</td><td>30501</td><td>WAYAN ADITYA PRAMANA</td><td>XII TKRO 3</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>SMK NEGERI 1 DENPASAR</h3>
+                <p>SMK Negeri 1 Denpasar mengembangkan keahlian di bidang Teknik Kendaraan Ringan (TKR), bertujuan untuk menciptakan lulusan yang siap kerja dan berinovasi di dunia otomotif.</p>
+            </div>
+            
+            <div class="footer-section links">
+                <h3>Tautan Cepat</h3>
+                <ul>
+                    <li><a href="/HomePage/Home.html">Home</a></li>
+                    <li><a href="/Guru/Guru.html">Guru</a></li>
+                    <li><a href="/Kelas/Kelas.html">Kelas</a></li>
+                    <li><a href="/LoginRegister/Login.html">Log Out</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section contact">
+                <h3>Kontak</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Cokroaminoto No.84, Pemecutan Kaja, Kec. Denpasar Utara, Kota Denpasar</p>
+                <p><i class="fas fa-phone"></i> +62 81 339 276 998</p>
+                <p><i class="fas fa-envelope"></i> contact@smkn1denpasar.sch.id</p>
+        </div>
+    
+            <div class="footer-section social">
+                <h3>Ikuti Kami</h3>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/facebook-removebg-preview.png" width="20" alt="Facebook"></a>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/ig-removebg-preview.png" width="20" alt="Instagram"></a>
+                <a href="#" style="margin-right: 10px;"><img height="20" src="/Foto/twitter-removebg-preview.png" width="20" alt="Twitter"></a>                </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 SMK NEGERI 1 DENPASAR. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        function openPopup(popupId) {
+            document.getElementById(popupId).style.display = "block";
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = "none";
+        }
+    </script>
+
+    <script src="Kelas.js"></script>
+</body>
+</html>
