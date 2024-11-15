@@ -179,14 +179,39 @@ body {
     cursor: pointer;
 }
 
-.container {
-    width: 85%;
-    max-width: 1000px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* ... your existing CSS ... */
+
+table {
+    width: 100%; /* Make table take up full width of the container */
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed; /* Fix the table layout to prevent columns from expanding */
+}
+
+/*  For tablet and smaller screen */
+@media (max-width: 768px) {
+  table {
+    width: 100%; /* Make table full width on smaller screens */
+  }
+  /* Responsive Table Styles */
+  th, td {
+    font-size: 12px; /* Adjust font size as needed */
+  }
+  /* Optional: Hide columns on smaller screens */
+  /* th:nth-child(3), td:nth-child(3) { 
+    display: none; 
+  } */ 
+}
+
+/* For smartphone */
+@media (max-width: 480px) {
+  table {
+    overflow-x: auto; /* Enable horizontal scrolling for the table */
+  }
+  /* Optional: Hide columns on smaller screens */
+  /* th:nth-child(3), td:nth-child(3) { 
+    display: none; 
+  } */ 
 }
 
 h1 {
@@ -293,4 +318,29 @@ tr:nth-child(even) {
     .footer-section {
         padding: 10px 0;
     }
+}
+
+/* ... your existing CSS ... */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+/* Responsive Table Styles */
+@media (max-width: 768px) { 
+    table {
+        width: 100%; /* Make table full width on smaller screens */
+    }
+
+    th, td {
+        font-size: 12px; /* Adjust font size as needed */
+    }
+
+    /* Optional: Hide columns on smaller screens */
+    /* th:nth-child(3), td:nth-child(3) { 
+        display: none; 
+    } */ 
 }
